@@ -9,7 +9,14 @@ body{
     width: 100%;
     background-attachment: fixed;
     position: absolute;
-    
+}
+.footer{
+    text-align: center;
+    margin-top: 1200px;
+    float: none;
+    height: 100px;
+    background-color: #287bff;
+    width: 100;
 }
 h1{
 
@@ -85,15 +92,7 @@ h3{
     line-height: 50px;
     border: #287bff;
 }
-.footer{
-    
-    box-sizing: border-box;
-    padding-bottom: 90px;
-    background: black;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.253);
-     
-}
+
 nav {
     margin: 100px 0;
     background-color: #287bff;
@@ -129,5 +128,56 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.411);
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #C2BEB2;
+  }
+  
+  .center {
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .table {
+    width: 790px;
+    height: 80px;
+    background-color: #287bff;
+  }
+  .table .monitor-wrapper {
+    background: #0061fc00;
+    width: 780px;
+    height: 80px;
+  }
+  .table .monitor-wrapper .monitor {
+    width: 700px;
+    height: 80px;
+    background-color: #287bff;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .table .monitor-wrapper .monitor p {
+    font-family: "VT323", monospace;
+    font-size: 73px;
+    position: relative;
+    display: inline-block;
+    animation: move 10s infinite linear;
+    color: #ffffff;
+  }
+  
+  @keyframes move {
+    from {
+      left: 800px;
+    }
+    to {
+      left: -1800px;
+    }
+  }
     
