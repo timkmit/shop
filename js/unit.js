@@ -29,7 +29,7 @@ const minusFunction = (id) => {
         return true;
     }
     if(lscart[id-1].value >=0){
-        window.localStorage.setItem('sum', Number(window.localStorage.getItem('sum'))-cart[id].cost);
+        window.localStorage.setItem("sum", Number(window.localStorage.getItem('sum'))-cart[id].cost);
     }
     if(lscart[id-1].value <= 0){
         
