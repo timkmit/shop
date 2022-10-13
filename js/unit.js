@@ -41,6 +41,14 @@ const minusFunction = (id) => {
     window.localStorage.setItem("cart", JSON.stringify(lscart))
 }
 
+window.addEventListener('DOMContentLoaded', () => {
+    const lscart = JSON.parse(window.localStorage.getItem("cart"));
+    let goods = Array.from(document.getElementsByClassName("cost"))
+    goods.forEach(element => {
+        console.log(element.getAttribute('data-id'))
+        element.textContent = lscart[element.getAttribute('data-id') - 1].cost + '₽'
+    });
+})
 
 
 
