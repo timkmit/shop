@@ -1,0 +1,67 @@
+html, body{
+    
+    box-sizing: border-box;
+    color: #43525d;
+    font-family: Tahoma;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.267);
+    width: 100%;
+    background-image: url(https://sun9-36.userapi.com/impg/r5Nw7QZqKvyAtc4BhfCDnXzVj7TwhW0IQuA_Ug/BpXgH8xw3SM.jpg?size=1920x1080&quality=96&sign=e0c06331ea2c4eb25a5a66d95815dd93&type=album);
+    background-attachment: fixed;
+    position: absolute;
+    
+}
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+.footer{
+    height: 800px;
+    width: 1200px;
+    box-sizing: border-box;
+    background: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.267);
+     
+}
+h3{
+    margin: 30px 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+nav {
+    margin: 100px 0;
+    background-color: rgba(0, 255, 106, 0.363);
+}
+/* убираем отступы и поля, а также list-style для "ul", 
+ * и добавляем "position:relative" */
+ nav ul {
+    padding:0;
+    margin:-50px;
+    list-style: none;
+    position: relative;
+    }
+
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+    display:inline-block;
+    background-color: rgba(0, 255, 106, 0);
+    }
+
+/* стилизуем ссылки */
+nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* изменяем цвет фона при наведении курсора */
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+}
