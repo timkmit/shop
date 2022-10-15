@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+  }
+html, body{
+    
+    box-sizing: border-box;
+    color: #3e464b;
+    font-family: Tahoma;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.267);
+    width: 100%;
+    background-attachment: fixed;
+    position: absolute;
+    
+}
+
+h1{
+
+}
+h2{
+
+}
+h3{
+    margin: 30px 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.section-description{
+    text-align: center;
+}
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+.goods-block{
+    margin: 50px 0 ;
+}
+.goods-cart {
+    width: 270px;
+    height: 425px;
+    margin: 20px 15px 0 15px;
+    background: rgba(255, 255, 255, 0.507);
+    float: left;
+    text-align: center;
+    transition: 0.8s;
+}
+.goods-cart:hover{
+    background: #287aff75;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 2px rgba(122,122,122,0.5);
+    
+}
+.goods-cart img {
+    margin-top: 10px;
+}
+.goods-cart .goods-name{
+    color: #43525d;
+    font-size: 18px;
+    margin: 3px 0 0 0 ;
+}
+.goods-cart .cost {
+    color: #ff7013;
+    font-size: 25px;
+    margin: 0;
+}
+.goods-cart button{
+    border: rgb(223, 223, 223);
+    width: 70px;
+    height: 25px;
+    font-size: 18px;
+}
+.goods-cart button:hover{
+    background-color: rgb(192, 192, 192);
+    
+}
+
+.basket-header button{
+    position: fixed;
+    color:#FFF;
+    font-size:20px;
+    padding:0;
+    margin:0;
+    list-style: none;
+    background-color:#287bff;
+    font-size:18px;
+    line-height: 50px;
+    border: #287bff;
+}
+.footer{
+    
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: #287aff44;
+    border-radius: 50px;
+    display: flex;
+}
+
+nav {
+    margin: 100px 0;
+    background-color: #287bff;
+}
+/* убираем отступы и поля, а также list-style для "ul", 
+ * и добавляем "position:relative" */
+nav ul {
+    padding:0;
+    margin:-50px;
+    list-style: none;
+    position: relative;
+    }
+
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: rgba(0, 255, 106, 0);
+    }
+
+/* стилизуем ссылки */
+nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* изменяем цвет фона при наведении курсора */
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+/*отсюда корзина*/
+.footer .shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 20px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.footer .title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+  }
+   
+  .footer .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+   
+  .footer .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+  .footer .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+  .footer .delete-btn,
+  .footer .like-btn {
+    display: inline-block;
+    Cursor: pointer;
+  }
+  .footer .delete-btn {
+    width: 18px;
+    height: 17px;
+  }
+   
+  .footer .like-btn {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+  }
+  .footer .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+  }
+  .footer .image {
+    margin-right: 50px;
+  }
+   
+  
+  .footer .description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+  }
+   
+  .footer .description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+  }
+   
+  .footer .description span:first-child {
+    margin-bottom: 5px;
+  }
+  .footer .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+  }
+  .footer .quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+  }
+  .footer .quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+   
+  button[class*=btn] {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  .footer .minus-btn img {
+    margin-bottom: 3px;
+  }
+  .footer .plus-btn img {
+    margin-top: 2px;
+  }
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+  .footer .total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+  @media (max-width: 800px) {
+    .footer .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .footer .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer .image img {
+      width: 50%;
+    }
+    .footer .image,
+    .footer .quantity,
+    .footer .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+    .footer .buttons {
+      margin-right: 20px;
+    }
+  }

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "sis1",
+        "name": "Обои Blanca",
+        "price": "1100",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": "sis2",
+        "name": "Обои Rubber#1",
+        "price": "1230",
+        "img": "images/2.jpg"
+    },
+    {
+        "id": "sis3",
+        "name": "Обои Rubber#2",
+        "price": "1230",
+        "img": "images/3.jpg"
+    },
+    {
+        "id": "sis4",
+        "name": "Обои Flower",
+        "price": "1740",
+        "img": "images/4.jpg"
+    },
+    {
+        "id": "sis5",
+        "name": "Обои Blanca",
+        "price": "1100",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": "sis6",
+        "name": "Обои Rubber#1",
+        "price": "1230",
+        "img": "images/2.jpg"
+    },
+    {
+        "id": "sis7",
+        "name": "Обои Rubber#2",
+        "price": "1230",
+        "img": "images/3.jpg"
+    },
+    {
+        "id": "sis8",
+        "name": "Обои Flower",
+        "price": "1740",
+        "img": "images/4.jpg"
+    }
+]    
