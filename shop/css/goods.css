@@ -15,7 +15,7 @@ body{
     margin-top: 1200px;
     float: none;
     height: 100px;
-    background-color: #287bff;
+    background-color: #79553D;
     width: 100;
 }
 h1{
@@ -33,6 +33,8 @@ h3{
 }
 .section-description{
     text-align: center;
+    color: #e6e4e1;
+    font-size: 1.1rem;
 }
 .container {
     width: 1200px;
@@ -51,7 +53,7 @@ h3{
     transition: 0.8s;
 }
 .goods-cart:hover{
-    background: #287aff75;
+    background: #80461f81;
     transform: scale(1.1);
     box-shadow: 0 0 5px 2px rgba(122,122,122,0.5);
     
@@ -87,15 +89,15 @@ h3{
     padding:0;
     margin:0;
     list-style: none;
-    background-color:#287bff;
+    background-color:#80461f;
     font-size:18px;
     line-height: 50px;
-    border: #287bff;
+    border: #80461f;
 }
 
 nav {
     margin: 100px 0;
-    background-color: #287bff;
+    background-color: #80461f;
 }
 /* убираем отступы и поля, а также list-style для "ul", 
  * и добавляем "position:relative" */
@@ -128,11 +130,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.411);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   body {
     background: #C2BEB2;
   }
@@ -149,7 +147,7 @@ nav a:hover {
   .table {
     width: 790px;
     height: 80px;
-    background-color: #287bff;
+    background-color: #80461f;
   }
   .table .monitor-wrapper {
     background: #0061fc00;
@@ -159,7 +157,7 @@ nav a:hover {
   .table .monitor-wrapper .monitor {
     width: 700px;
     height: 80px;
-    background-color: #287bff;
+    background-color: #80461f;
     overflow: hidden;
     white-space: nowrap;
   }
